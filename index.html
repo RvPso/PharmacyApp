@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3alegny App</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="menu"><h1 class= "title">3alegny App Prototype</h1></div>
+    <div class="result">
+        <div id="map"></div>
+      <div class="list">
+      <input type="text" id="myInput" onkeyup="search()" placeholder="Search for a medicine..">
+        <ul id="pharmacies">
+        </ul>
+      </div>
+      
+    </div>
+    
+    <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAg3gr1L2WnsK4BMY7ypp3aZYry7divrhc&callback=initMap"
+    async defer></script>
+  </body>
+</html>

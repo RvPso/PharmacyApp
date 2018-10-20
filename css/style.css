@@ -1,0 +1,71 @@
+
+
+#map {
+    height: 100%;
+    width: 80%;
+    margin-left: 0px;
+    
+  }
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* use the flex model */
+    min-height: 100%;
+    min-width: 100%;
+    flex-direction: column;
+  }
+
+.menu {
+    height: 30%;
+    background-color: rgb(0, 225, 255);
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+}
+.title {
+    font-family: verdana;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 4px black;
+    paint-order: stroke fill;
+}
+
+.result {
+    display: flex;
+    flex-direction: row-reverse;
+        min-height: 100%;
+    min-width: 100%;
+}
+.list {
+    background-color: white;
+    width: 20%;
+    border-right: solid 3px black;
+}
+#myInput {
+  background-position: 10px 12px;
+  width: 77%;
+  font-size: 16px;
+  padding: 12px 20px 12px 0px;
+  border: 1px solid rgba(145, 145, 145, 0.329);
+  margin-bottom: 12px;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    
+}
+
+li {
+    font-family: verdana;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 23px;
+    border-bottom: 2px solid black;
+}
